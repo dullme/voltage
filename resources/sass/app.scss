@@ -1,0 +1,91 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'corpfont';
+  src: url('../fonts/corpfont.eot');
+  src: url('../fonts/corpfont.eot#iefix') format('embedded-opentype'),
+  url('../fonts/corpfont.ttf') format('truetype'),
+  url('../fonts/corpfont.woff') format('woff'),
+  url('../fonts/corpfont.svg#corpfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'akkuratpro-light';
+  src: url('../fonts/akkuratpro-light.eot');
+  src: url('../fonts/akkuratpro-light.eot?#iefix20180113') format('embedded-opentype'),
+  url('../fonts/akkuratpro-light.ttf') format('truetype'),
+  url('../fonts/akkuratpro-light.woff') format('woff'),
+  url('../fonts/akkuratpro-light.svg#corpfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'akkuratpro-bold';
+  src: url('../fonts/akkuratpro-bold.eot');
+  src: url('../fonts/akkuratpro-bold.eot?#iefix20180113') format('embedded-opentype'),
+  url('../fonts/akkuratpro-bold.ttf') format('truetype'),
+  url('../fonts/akkuratpro-bold.woff') format('woff'),
+  url('../fonts/akkuratpro-bold.svg#corpfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkkuratPro-Regular';
+  src: url('../fonts/AkkuratPro-Regular.eot');
+  src: url('../fonts/AkkuratPro-Regular.eot?#iefix20180113') format('embedded-opentype'),
+  url('../fonts/AkkuratPro-Regular.ttf') format('truetype'),
+  url('../fonts/AkkuratPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1366px;
+  }
+}
+
+body {
+  font-family: "AkkuratPro-Regular", Helvetica, Arial, sans-serif;
+}
+
+.slick-prev-icon:before {
+  font-family: corpfont;
+  content: "\e901";
+  color: #f66f6a;
+  font-size: 44px;
+}
+
+.slick-next-icon:before {
+  font-family: corpfont;
+  content: "\e902";
+  color: #f66f6a;
+  font-size: 44px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
+.banner .slick-prev-icon,
+.banner .slick-next-icon {
+  opacity: 0;
+}
+
+.banner:hover .slick-prev-icon,
+.banner:hover .slick-next-icon {
+  opacity: 1;
+}

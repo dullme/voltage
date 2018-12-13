@@ -111,7 +111,7 @@
                                                         <div class="col-sm-4 external-link">
                                                             <a href="##" target="_blank">
                                                                 <i class="fa fa-book fa-3x"></i>
-                                                                <p>Foldable Solar Charger</p>
+                                                                <p>Foldable Sol...</p>
                                                             </a>
                                                         </div>
                                                         <div class="col-sm-4 external-link">
@@ -250,10 +250,10 @@
                         <span>©2018 voltage Technologies Co., Ltd.</span>
                     </div>
                     <div class="ml-md-auto icons">
-                        <a href="##">LinkedIn</a>
-                        <a href="##">Facebook</a>
-                        <a href="##">Youtube</a>
-                        <a href="##">Instagram</a>
+                        <a href="##"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                        <a href="##"><i class="fa fa-facebook-square fa-lg"></i></a>
+                        <a href="##"><i class="fa fa-youtube-square fa-lg"></i></a>
+                        <a href="##"><i class="fa fa-instagram fa-lg"></i></a>
                     </div>
                 </div>
             </div>

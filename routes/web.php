@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('test');
+});
+
+Route::get('/test', function () {
+    return response()->json([
+        'title' => '标题',
+        'content' => 'asdjalsjdlksajfkjsahdfkljhsadkjlfhkljsadhfkljasdhlkjf',
+    ]);
 });
